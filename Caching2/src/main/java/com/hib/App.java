@@ -45,6 +45,7 @@ public class App
         
 //        tx.commit();
         session2.close();
+        sf.close();
         System.out.println("----------------END----------------");
         
     }
